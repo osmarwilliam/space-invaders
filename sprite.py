@@ -1,6 +1,8 @@
 from PPlay.sprite import *
 import config
 
+# todos sprites do jogos 
+
 botao_jogar = Sprite("images/jogar.png", 1)
 botao_jogar.set_position(config.window.width/2 - botao_jogar.width/2, 50)
 
